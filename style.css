@@ -1,0 +1,114 @@
+/* ===== GLOBAL THEME ===== */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fcefee, #e8f0fe);
+}
+
+/* ===== FORM CONTAINER ===== */
+.container {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  width: 330px;
+  text-align: center;
+}
+
+/* Form Heading */
+.container h2 {
+  color: #6b5b95;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* ===== INPUTS ===== */
+input {
+  width: 92%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #c1b8e8;
+  box-shadow: 0 0 0 2px rgba(193, 184, 232, 0.3);
+}
+
+/* ===== BUTTON ===== */
+button {
+  background: linear-gradient(135deg, #6b5b95, #a593e0);
+  color: white;
+  padding: 11px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(107, 91, 149, 0.4);
+}
+
+/* ===== ID CARD ===== */
+.id-card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 20px;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.14);
+  text-align: center;
+  width: 320px;
+  border: 1px solid #f2f2f2;
+}
+
+/* ID Card Heading */
+.id-card h3 {
+  color: #6b5b95;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ID Card Photo */
+.id-card img#outPhoto {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 3px solid #f7cfd8;
+  margin-bottom: 14px;
+}
+
+/* ID Card Text */
+.id-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.id-card p b {
+  color: #444;
+}
+
+/* ===== QR CODE ===== */
+.qr {
+  margin-top: 16px;
+}
+
+.qr img {
+  width: 115px;
+  height: 115px;
+  padding: 6px;
+  background: #fafafa;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
